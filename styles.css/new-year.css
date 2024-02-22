@@ -1,0 +1,98 @@
+body{
+    font-family: "Work Sans", sans-serif;
+}
+/* ---header section------ */
+.container{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+    
+  
+.banner-text{
+    position: absolute;
+    width: 40%;
+    text-align: right;    
+}
+.title{
+    color: rgb(21, 20, 20);
+    font-size: 65px;
+    font-weight: 700; 
+    width: 525px;
+    height: 220px;   
+}
+.title-description{
+    margin-top: 24px;
+    width: 80%;
+}
+.primary-btn{
+    margin-top: 32px;
+    margin-right: 130px;  
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: rgb(241, 91, 34);
+    padding: 10px;    
+}
+
+/* ----failure section---- */
+.failures{
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 140px;  
+    margin-bottom: 100px;  
+}
+.failure-content{
+    width: 416px;
+    height: 400px;
+    align-items: start;
+}
+.failure-content ul{
+    display:inline ;
+}
+.second-type-heading{
+    color: rgb(21, 20, 20);
+    font-size: 40px;
+    font-weight: 700;
+    
+    
+}
+#my-plans{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+ul > li{
+    list-style: none; 
+
+     
+}
+.fa-solid {
+    width: 24px;
+    height: 24px;
+    color:rgb(22, 216, 135) ;
+}
+/* -----MY plans section---- */
+
+.my-plans-container{
+    text-align: center;
+}
+.skill-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.skills{
+    margin: 85px 50px;
+}
+/* ---positive mindset section---- */
+.watch-banner{
+    width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+    
+    background-image: url('../images/watch.png');
+}
